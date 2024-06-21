@@ -6,23 +6,42 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {background-color: black;
+body {
+    background-color: black;
+  
 }
 
-header{
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    width: 100vw;
     font-size: 15px;
-    display: flex;;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-weight: 800;
     transition: ease-in-out 0.5s;
     text-transform: uppercase;
+    background-color: #000000;
+
 }
+.whatsapp{
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+   }
+
 
 a {
     color: white;
     transition: ease-in-out 0.5s;
-    
+    font-family:
+        "Times New Roman";
+
 }
 
 a:hover {
@@ -30,18 +49,25 @@ a:hover {
 }
 
 .container2 {
+    top: 0;
+    right: 0;
+    left: 0;
     background-image: url(/img/fundo_academia.jpg);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-
+   
+}
+.content {
+    margin-top: 81px;
+    
 }
 
 h1 {
     font-size: 60px;
     color: white;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 50px;
     font-weight: 800;
     text-transform: uppercase;
 
@@ -50,6 +76,7 @@ h1 {
 span {
     color: red;
 }
+
 
 
 h2 {
@@ -72,6 +99,10 @@ p {
     margin-left: 84px;
     margin-top: 20px;
     text-align: center;
+    font-family:
+    "Times New Roman";
+    
+
 }
 
 
@@ -94,21 +125,26 @@ button:hover {
     background-color: white;
     color: red;
 }
+
 .container3 {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(22, 21, 21);
+    background-color: #000000;
     gap: 50px;
     margin-top: 20px;
     min-height: 100vh;
+   
+    
 
 
 }
-.container3 .about{
+
+.container3 .about {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+
 .container3 h2 {
     font-size: 60px;
     color: white;
@@ -117,23 +153,78 @@ button:hover {
     font-weight: 800;
     text-transform: uppercase;
 }
+
 .container3 p {
     font-size: 25px;
     color: white;
     text-align: left;
+    font-family:
+    "Times New Roman";
+
 
 }
 
 .container3 img {
-    width:550px;
+    width: 550px;
     height: 550px;
     border-radius: 50%;
     margin-top: 40px;
-    
+
 }
+
 .container3 .peso {
     width: 200px;
     height: 200px;
     margin-top: 46px;
     margin-left: 160px;
+}
+
+.container4 {
+    min-height: 100vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.box-menu {
+    width: 400px;
+    height: 500px;
+    background-color: #FBBB05;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.box-menu:hover{
+    border: solid 3px white;
+
+}
+
+.links {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 18px 80px;
+    border-radius: 9px;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.peso-link {
+    margin-bottom: 20px;
+}
+
+.container4 a {
+    margin: 10px;
+}
+
+.container4 a:hover {
+    color: #FBBB05;
+    background-color: #ffffff;
+    
 }
