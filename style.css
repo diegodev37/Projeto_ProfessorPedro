@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {background-color: black;
+}
+
+header{
+    font-size: 15px;
+    display: flex;;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 800;
+    transition: ease-in-out 0.5s;
+    text-transform: uppercase;
+}
+
+a {
+    color: white;
+    transition: ease-in-out 0.5s;
+    
+}
+
+a:hover {
+    color: red;
+}
+
+.container2 {
+    background-image: url(/img/fundo_academia.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+span {
+    color: red;
+}
+
+
+h2 {
+    font-size: 30px;
+    color: red;
+    margin-left: 130px;
+    margin-top: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.h2 {
+    color: white;
+}
+
+p {
+    width: 400px;
+    font-size: 25px;
+    color: white;
+    margin-left: 84px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+button {
+    text-align: center;
+    width: 200px;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    margin-left: 184px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+button:hover {
+    background-color: white;
+    color: red;
+}
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(22, 21, 21);
+    gap: 50px;
+    margin-top: 20px;
+    min-height: 100vh;
+
+
+}
+.container3 .about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container3 h2 {
+    font-size: 60px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.container3 p {
+    font-size: 25px;
+    color: white;
+    text-align: left;
+
+}
+
+.container3 img {
+    width:550px;
+    height: 550px;
+    border-radius: 50%;
+    margin-top: 40px;
+    
+}
+.container3 .peso {
+    width: 200px;
+    height: 200px;
+    margin-top: 46px;
+    margin-left: 160px;
+}
