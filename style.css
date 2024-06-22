@@ -8,15 +8,11 @@
 
 body {
     background-color: black;
-  
+
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 99;
+
     width: 100vw;
     font-size: 15px;
     display: flex;
@@ -28,12 +24,13 @@ header {
     background-color: #000000;
 
 }
-.whatsapp{
+
+.whatsapp {
     position: fixed;
     margin-left: 20px;
     margin-top: 20px;
     cursor: pointer;
-   }
+}
 
 
 a {
@@ -49,25 +46,18 @@ a:hover {
 }
 
 .container2 {
-    top: 0;
-    right: 0;
-    left: 0;
     background-image: url(/img/fundo_academia.jpg);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-   
+
 }
-.content {
-    margin-top: 81px;
-    
-}
+
 
 h1 {
     font-size: 60px;
     color: white;
     margin-left: 30px;
-    margin-top: 50px;
     font-weight: 800;
     text-transform: uppercase;
 
@@ -100,8 +90,8 @@ p {
     margin-top: 20px;
     text-align: center;
     font-family:
-    "Times New Roman";
-    
+        "Times New Roman";
+
 
 }
 
@@ -133,10 +123,6 @@ button:hover {
     gap: 50px;
     margin-top: 20px;
     min-height: 100vh;
-   
-    
-
-
 }
 
 .container3 .about {
@@ -159,7 +145,7 @@ button:hover {
     color: white;
     text-align: left;
     font-family:
-    "Times New Roman";
+        "Times New Roman";
 
 
 }
@@ -192,7 +178,7 @@ button:hover {
 .box-menu {
     width: 400px;
     height: 500px;
-    background-color: #FBBB05;
+    background-color: #fbb905;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,7 +186,8 @@ button:hover {
     margin-bottom: 40px;
     border-radius: 10px;
 }
-.box-menu:hover{
+
+.box-menu:hover {
     border: solid 3px white;
 
 }
@@ -226,5 +213,19 @@ button:hover {
 .container4 a:hover {
     color: #FBBB05;
     background-color: #ffffff;
-    
+
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 2s;
+    filter: blur(15px);
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity: 1;
+    transition: all 2s;
+    filter: blur(0);
+    transform: translateX(0);
 }
